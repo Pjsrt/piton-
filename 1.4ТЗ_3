@@ -1,0 +1,11 @@
+Dima = input('Дима: я скинул')
+Blad = input('Влад:а я скинул')
+Oleg  = input('Олег: я скинул')
+y = 15000
+
+Dima = float(Dima)
+Blad = float(Blad)
+Oleg = float(Oleg)
+
+p = (y - (Dima + Blad + Oleg))
+print("Вам не хвотает", p) 

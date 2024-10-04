@@ -1,0 +1,20 @@
+moloco = 100
+xleb = 32
+sosiska = 6
+
+xleb2 = input('Сколько вам булок хлеба?')
+moloco2 = input('Сколько вам бутылок молока?')
+sosiska2 = input('Сколько вам сосисок?')
+
+xleb2 = int(xleb2)
+moloco2 = int(moloco2)
+sosiska2 = int(sosiska2)
+
+
+y = ((moloco * moloco2) + (xleb * xleb2) + (sosiska *sosiska2))
+
+print('Вы потратили', y ,'рублей')
+
+
+
+
